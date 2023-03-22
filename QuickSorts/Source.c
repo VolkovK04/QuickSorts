@@ -6,8 +6,8 @@
 //#define PRINT_ARRAYS
 
 
-#define QUICK_SORT(T, NAME)				            \
-void NAME##Swap_m(T* a, T* b){		                \
+#define QUICK_SORT(T, NAME)			    \
+void NAME##Swap_m(T* a, T* b){		            \
         T c = *a;                                   \
         *a = *b;                                    \
         *b = c;                                     \
