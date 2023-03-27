@@ -17,7 +17,6 @@ void NAME(T* arr, int len, int (*comp)(T, T)) {     \
         return;                                     \
     }                                               \
     int p = rand() % len;                           \
-    p = 0;                                          \
     T k = arr[p];                                   \
     NAME##Swap_m(arr, arr + p);                     \
     int i = 0;                                      \
